@@ -5,6 +5,7 @@ This is a custom LED eye module design for the Hello-Robo RE2. This Eye module d
 
 
 
+![Uploading Eyes_expressions-3.gif…]()
 
 
 **BOM** 
