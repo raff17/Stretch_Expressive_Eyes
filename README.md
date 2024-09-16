@@ -1,10 +1,10 @@
 This is a custom LED eye module design for the Hello-Robo RE2. This Eye module displays different emotions (sad, angry, happy, confused, and normal (staring)) and can gaze utilizing the tilt-pan camera located on the robot. 
 
 
-![Uploading Eyes_expressions gaze1-3.gif…]()
+![Eyes_expressions gaze1-3](https://github.com/user-attachments/assets/1a81e5c7-6dae-4575-aa92-3ec6ed713f14)
 
 
-![Uploading Eyes_expressions-3.gif…]()
+![Eyes_expressions-3](https://github.com/user-attachments/assets/40aa3db7-43b3-4b1e-9a08-403490bf8655)
 
 
 **BOM** 
