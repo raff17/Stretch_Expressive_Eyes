@@ -14,6 +14,7 @@ Arduino Mega or an ESP32 board
 Ability to 3D print (stand)
 
 BTF-Lighting (8cm*32cm) LED strip (link: https://a.co/d/6l0Y1tK)
+
 **LED strip wire connections** 
 
 Red = Vout (5V)
