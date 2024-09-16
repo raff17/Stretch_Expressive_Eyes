@@ -1,0 +1,14 @@
+<launch>
+   <include file="$(find stretch_core)/launch/stretch_driver.launch"/>
+    <arg name="node_start_delay" default="5.0" />
+   <node pkg="rosservice" type="rosservice" name="nav" args="call /switch_to_navigation_mode" launch-prefix="bash -c 'sleep $(arg node_start_delay); $0 $@' "/>
+   <node pkg="Expressive_Eyes" type="talker.py" name="Talker" output="screen"/>
+   <node pkg="Expressive_Eyes" type="keyboard_talker.py" name="keyboard" output="screen"/>
+   <include file="$(find stretch_core)/launch/d435i_basic.launch" pass_all_args="true">
+    <arg name="depth_width" value="1280"/>
+    <arg name="depth_height" value="720"/>
+    <arg name="color_width" value="1280"/>
+    <arg name="color_height" value="720"/>
+  </include>
+  <node pkg="Expressive_Eyes" type="AlternativeInterface.py" name="eye_expression" output="screen"/>
+</launch>
