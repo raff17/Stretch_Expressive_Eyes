@@ -13,8 +13,7 @@ Arduino Mega or an ESP32 board
 
 Ability to 3D print (stand)
 
-BTF-Lighting (8cm*32cm) LED strip (link: https://www.amazon.com/BTF-LIGHTING-Individual-Addressable-Flexible-Controllers/dp/B09XWR1Y5K/ref=sr_1_5?crid=8J6ZMHYBALX0&dib=eyJ2IjoiMSJ9.1xnIkPzQ5iqcq1PRC6M9nCeNOSXXcAX1VYdgFX2gk2B354Oh3ZdfH8_WAFrJGWeAbLsZ8hl9l4I6Jy6wzR8zNO7WOZ6AgkCJiwvE2okwLEhQrFjYJ2NS0kM8bHtoLf7N-a3Hyd9ARJ0_0_0pD7ku2__CK6vs_Pqmk0UqLADlt0hCMDOaBOwts965Hk8yue3lCp9Y8Z6R5uaTqJG4Ihi3JpqAZstZVO1N6UHNOClApq3-rqVv68uI8gsgfgvxDLtPWkTsHSCB_t560MH2AZLffnDM2I6cOfN2dhpZEd_WXCY.B0ewe3eqZNB2wKoaLC0sSWDF7U3jQh2lvY8rNELxum8&dib_tag=se&keywords=BTF-Lighting+%288cm*32cm%29+LED+strip&qid=1726448037&sprefix=btf-lighting+8cm+32cm+led+strip%2Caps%2C202&sr=8-5)
-
+BTF-Lighting (8cm*32cm) LED strip (link: https://a.co/d/6l0Y1tK)
 **LED strip wire connections** 
 
 Red = Vout (5V)
