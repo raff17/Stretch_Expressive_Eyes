@@ -19,9 +19,9 @@ BTF-Lighting (8cm*32cm) LED strip (link: https://a.co/d/6l0Y1tK)
 
 Red = Vout (5V)
 
-Black = Ground 
+White = Ground 
 
-Green = signal (Pin4 in Arduino)
+Green = signal[data] (Pin4 in Arduino)
 
 **How to install** 
 Clone the repo into your Catkin folder.
@@ -31,10 +31,18 @@ Clone the repo into your Catkin folder.
 1) run the Hello-Robot calibration code 
 {Stretch_robot_home.py}
 
-2) Run the launch file 
+2) Run the launch file  # If you do not need an interface comment it out in the launch file!
 {roslaunch Expressive_Eyes expression.launch}
 
 3) Run the serial communication (allows you to collect information from the USB port)
 {rosrun rosserial_python serial_node.py /dev/ttyACM2}
 
-*Disclaimer: The ttyACM2 corresponds to the USB port the Arduino was connected to. It might be different for you.*
+*Disclaimer: The /dev/ttyACM2 corresponds to the USB port the Arduino was connected to. It might be different for you. If it does not work run **dmesg | grep tty** to figure out the TTY device *
+
+**Controls**
+
+Gaze system: 
+At this point the Arduino should be collecting information from the camera motor, which means that as long as the code is running anytime the camera tilts/pans the eyes should follow.
+
+Expressions: Consist of 4 expressions and a baseline (stare [normal]) mode. To activate the expressions just press the keys that correspond to action.
+[{H: happy}, {O: Normal}, {N: Angry}, {B: Sad}, {C: Confuse}]
