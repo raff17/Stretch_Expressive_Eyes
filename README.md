@@ -46,4 +46,5 @@ At this stage, the Arduino should be gathering information from the camera motor
 
 Expressions: 
 Includes four expressions and a baseline mode (normal stare). To activate an expression, simply press the corresponding key.
+
 [{H: happy}, {O: Normal}, {N: Angry}, {B: Sad}, {C: Confuse}]
