@@ -42,7 +42,8 @@ Clone the repo into your Catkin folder.
 **Controls**
 
 Gaze system: 
-At this point the Arduino should be collecting information from the camera motor, which means that as long as the code is running anytime the camera tilts/pans the eyes should follow.
+At this stage, the Arduino should be gathering information from the camera motor. This means that as long as the code is running, the eyes will follow whenever the camera tilts or pans.
 
-Expressions: Consist of 4 expressions and a baseline (stare [normal]) mode. To activate the expressions just press the keys that correspond to action.
+Expressions: 
+Includes four expressions and a baseline mode (normal stare). To activate an expression, simply press the corresponding key.
 [{H: happy}, {O: Normal}, {N: Angry}, {B: Sad}, {C: Confuse}]
